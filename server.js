@@ -3,9 +3,9 @@ const express = require('express');
 const server = express();
 
 var produtos = [
-    {id: 1,descricao: 'Comprar pão', finalizado: false},
-    {id: 2,descricao: 'Comprar Tanque de guerra', finalizado: true},
-    {id: 3,descricao: 'Comprar Arroz', finalizado: true}
+    {id: 1,descricao: 'Comprar Espada de luz', finalizado: false},
+    {id: 2,descricao: 'Comprar Computador', finalizado: true},
+    {id: 3,descricao: 'Comprar Feijão', finalizado: true}
 ];
 //midlewares:
 server.use(express.json());
